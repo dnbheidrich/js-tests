@@ -9,7 +9,7 @@ let goodDoggo = {
   name: "Bandit",
   legs: 4,
   tail: true,
-  likes: ["running", "jumping", "swimming", "playing"]
+  likes: ["running", "jumping", "swimming", "playing"],
 }
 
 
@@ -34,8 +34,7 @@ let cat = {
 // the value of the name property.
 function renameCat() {
   // your code inside here
-  let name = "Kevin"
-  return cat.name
+  
 }
 
 // Create a function that uses dot or bracket notation to create a property 
@@ -43,7 +42,8 @@ function renameCat() {
 // Then return the value of the color property.
 
 function colorTheCat() {
-  // your code inside here
+  // your code inside here\
+  
 }
 
 // Delete the whiskers property off of the cat object. You may use either dot or bracket notation.
@@ -55,4 +55,5 @@ function colorTheCat() {
 
 function returnIndex(cat) {
   // your code inside here
+  
 }

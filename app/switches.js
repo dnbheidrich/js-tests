@@ -27,6 +27,43 @@ function daysPosition(day, offset) {
  */
 
  function golfScore(score, par) {
+     let diff = score - par;
+     switch(diff){
+     case -3:
+        return "Ace"
+
+     break;
+    
+     case -2:
+         return "Eagle"
+        console.log("Eagle")
+    break;
+    
+    case -1:
+        return "Birdie"
+        console.log("Birdie")
+     break;
+     case 0:
+         return "Par"
+        console.log ("Par")
+    break;
+    
+    case 1:
+        return "Bogie"
+        console.log ("Bogie")
+     break;
+    
+     case 2:
+         return "Double Bogie"
+        console.log ("Double Bogie")
+     break;
+    
+     default: 
+     return "Ouch"
+     
+         
+    
+    }
 
  }
  
